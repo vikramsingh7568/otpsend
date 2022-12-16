@@ -1,18 +1,3 @@
-// var sid = "ACb3f60ee9c3653a8e19bcf03480054ce6";
-// var auth_token = "cba0f32f759ddf2b7be68bbaf76db526";
-// let otp = "123456"
-// var twilio = require("twilio")(sid, auth_token);
-
-// twilio.messages
-//   .create({
-//     from: "+19458995964",
-//     to: "+918514075565",
-//     body: `this is testing otp from my side to my phone ok vikram${otp}`,
-//   })
-//   .then(function(res) {console.log("message has sent!")})
-//   .catch(function(err)  {
-//     console.log(err);
-//   });
 
 
 const otpGen = require("otp-generator")
